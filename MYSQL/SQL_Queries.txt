@@ -30,7 +30,7 @@ or insert into tablename values(val1,val2,val3);            note- if you know se
 
 
 -- to update 
-update tablename col="" where id="";
+update tablename set col="" where id="";
 
 --delete
 delete from [tablename] where col="";

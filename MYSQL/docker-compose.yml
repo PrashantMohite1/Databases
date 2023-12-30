@@ -1,3 +1,10 @@
+command to connect below db - make sure after docker-compose wait for 10-15 min for initialization of mysql
+# mysql -h 127.0.0.1 -u prashant -p firstdb
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 version: '3.8'
 
 services:

@@ -1,0 +1,76 @@
+
+
+create database [dbname]
+drop database [dbname]
+use [dbname]
+
+
+-- create table
+create table [tablename] ( col1 coltype(size) extra);
+
+--describe the table
+desc [tablename]
+
+
+--modify column 
+
+alter table [tablename] modify [colname] [newDataype]
+
+-- to rename column 
+
+alter table [tablename] rename column old-col-name new-col-name
+
+
+
+--to insert in tables
+
+insert into tablename (col1,col2) values(val1,val2....);
+or insert into tablename values(val1,val2,val3);            note- if you know sequence of values then use this
+
+
+
+-- to update 
+update tablename col="" where id="";
+
+--delete
+delete from [tablename] where col="";
+
+
+
+----------select queries 
+
+select * from tablename where conditin
+
+select * from tablename cond1 and cond2 
+
+select * from tablename cond1 or cond2 
+
+--not condition 
+
+select * from tablename where not condition
+
+
+
+------order by - use to sort the rows asc and dsc 
+
+select * from tablename order by colname;    to get asc order 
+
+select * from table order by colname desc;
+
+----------count from 
+
+select count(column) from tableName where condition 
+
+select sum(column) "alias" tableName where condition
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-
+    
 
 create database [dbname]
 drop database [dbname]
@@ -153,7 +153,10 @@ Inner join
     select e.name , e.salary , l.model from employee e inner join laptops l on e.id = l.sid;
 
 
+   joining 3 tables 
 
+    select u.userid , u.username , o.orgid , o.orgname, r.filename  from "user" u inner join org o ON u.orgid = o.orgid  
+    inner join resource r ON r.ownerid=u.userid where userid =92 ;
 
 
 
